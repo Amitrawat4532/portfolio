@@ -19,6 +19,7 @@ const Aboutpage = () => {
           justifyContent="center"
           width={["100%", "100%", "50%", "50%"]}
           border="2px solid blue"
+          height={["200px", "250px", "590px", "590px"]}
         >
           <Image
             src="./Images/amit.png"
@@ -39,6 +40,7 @@ const Aboutpage = () => {
           margin="5px"
           alignItems="Center"
           width={["100%", "100%", "50%", "50%"]}
+          height={["200px", "250px", "590px", "590px"]}
         >
           <Flex
             justifyContent={["center", "center", "start", "start"]}
@@ -121,7 +123,7 @@ const Aboutpage = () => {
           <Flex justifyContent="start" width="70%" alignItems="center">
             <Text
               color="white"
-              fontSize={["12px", "15px", "18px", "20px"]}
+              fontSize={["10px", "15px", "18px", "20px"]}
               minWidth="150px"
             >
               Phone no. :
@@ -147,11 +149,11 @@ const Aboutpage = () => {
               color="black"
               bgColor="orange"
               borderRadius="30px"
-              width={["60px", "80px", "120px", "120px"]}
-              height={["25px", "30px", "50px", "50px"]}
-              fontSize={["10px", "12px", "14px", "15px"]}
+              width={["75px", "80px", "120px", "120px"]}
+              height={["38px", "40px", "50px", "50px"]}
+              fontSize={["12px", "12px", "14px", "15px"]}
             >
-              view my CV
+              view my cv
             </Button>
           </Flex>
         </Flex>
