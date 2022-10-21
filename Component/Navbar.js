@@ -94,7 +94,7 @@ const Navbar = () => {
           display={["flex", "flex", "none", "none"]}
           color="orange"
           background="tranparent"
-          fontSize="30px"
+          fontSize="45px"
         />
 
         <Drawer
