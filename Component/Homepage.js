@@ -1,6 +1,5 @@
 import { Button, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import { motion } from "framer-motion";
 
 const Homepage = () => {
   return (
