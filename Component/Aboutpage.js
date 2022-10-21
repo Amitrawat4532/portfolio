@@ -6,13 +6,7 @@ const Aboutpage = () => {
   return (
     <>
       {/* ***************header container************** */}
-      <Flex
-        height="50px"
-        width="100%"
-        bgColor="black"
-        justifyContent="center"
-        border="2px solid blue"
-      >
+      <Flex height="50px" width="100%" bgColor="black" justifyContent="center">
         <Text fontSize="40px" fontWeight="500" color="white">
           ABOUT ME
         </Text>
@@ -25,7 +19,6 @@ const Aboutpage = () => {
           justifyContent="center"
           width={["100%", "100%", "50%", "50%"]}
           height={["250px", "250px", "590px", "590px"]}
-          border="2px solid blue"
         >
           <Image
             src="./Images/amit.png"
