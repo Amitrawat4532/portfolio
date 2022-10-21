@@ -7,7 +7,7 @@ const Aboutpage = () => {
     <>
       {/* ***************header container************** */}
       <Flex
-        height="100px"
+        height="50px"
         width="100%"
         bgColor="black"
         justifyContent="center"
