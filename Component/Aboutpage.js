@@ -13,7 +13,7 @@ const Aboutpage = () => {
       </Flex>
 
       {/* ***************************main container**************** */}
-      <Flex bgColor="black" flexWrap="wrap" height="100%">
+      <Flex bgColor="black" flexWrap="wrap" height="90vh">
         {/* ****************left container************* */}
         <Flex
           flex="1"
@@ -137,8 +137,9 @@ const Aboutpage = () => {
               color="black"
               bgColor="orange"
               borderRadius="30px"
-              width="120px"
-              height="50px"
+              width={["60px", "80px", "120px", "120px"]}
+              height={["25px", "30px", "50px", "50px"]}
+              fontSize={["10px", "12px", "14px", "15px"]}
             >
               view my CV
             </Button>
