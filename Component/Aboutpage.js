@@ -18,11 +18,11 @@ const Aboutpage = () => {
         <Flex
           justifyContent="center"
           width={["100%", "100%", "50%", "50%"]}
-          height={["250px", "250px", "590px", "590px"]}
+          height={["300px", "250px", "590px", "590px"]}
         >
           <Image
             src="./Images/amit.png"
-            height={["200px", "200px", "300px", "350px"]}
+            height={["250px", "250px", "300px", "350px"]}
             width={["60%", "60%", "60%", "60%"]}
             alignSelf="center"
             margin="auto"
@@ -148,9 +148,9 @@ const Aboutpage = () => {
               color="black"
               bgColor="orange"
               borderRadius="30px"
-              width={["80px", "80px", "120px", "120px"]}
-              height={["45px", "40px", "50px", "50px"]}
-              fontSize={["14px", "14px", "15px", "15px"]}
+              width={["120px", "120px", "120px", "120px"]}
+              height={["60px", "60px", "60px", "60px"]}
+              fontSize={["17px", "17px", "17px", "17px"]}
             >
               view my cv
             </Button>

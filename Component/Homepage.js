@@ -8,7 +8,7 @@ const Homepage = () => {
       <Flex
         // bgImg="url('/Images/bg.jpg')"
         bgColor="black"
-        height="90vh"
+        height="95vh"
         width="100%"
         alignItems="center"
         // position="relative"
