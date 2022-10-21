@@ -13,7 +13,7 @@ const Homepage = () => {
         alignItems="center"
         // position="relative"
 
-        pt="80px"
+        pt="50px"
       >
         {/* Detail container */}
         <Flex
