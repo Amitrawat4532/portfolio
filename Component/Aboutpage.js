@@ -13,7 +13,7 @@ const Aboutpage = () => {
       </Flex>
 
       {/* ***************************main container**************** */}
-      <Flex bgColor="black" flexWrap="wrap" height="90vh">
+      <Flex bgColor="black" flexWrap="wrap" height="80vh">
         {/* ****************left container************* */}
         <Flex
           justifyContent="center"
@@ -45,7 +45,7 @@ const Aboutpage = () => {
             justifyContent={["center", "center", "start", "start"]}
             width="60%"
           >
-            <Text color="white" fontSize={["15px", "20px", "25px", "30px"]}>
+            <Text color="white" fontSize={["20px", "20px", "25px", "30px"]}>
               {" "}
               This is a Heading{" "}
             </Text>
@@ -54,7 +54,7 @@ const Aboutpage = () => {
           <Flex justifyContent="start" width="70%" alignItems="center">
             <Text
               color="white"
-              fontSize={["12px", "15px", "18px", "20px"]}
+              fontSize={["17px", "17px", "18px", "20px"]}
               minWidth="150px"
             >
               Name :
@@ -62,7 +62,7 @@ const Aboutpage = () => {
             <Text
               color="white"
               textAlign="start"
-              fontSize={["10px", "12px", "15px", "17px"]}
+              fontSize={["15px", "15px", "15px", "17px"]}
             >
               Suchit Singh Rawat
             </Text>
@@ -71,7 +71,7 @@ const Aboutpage = () => {
           <Flex justifyContent="start" width="70%" alignItems="center">
             <Text
               color="white"
-              fontSize={["12px", "15px", "18px", "20px"]}
+              fontSize={["17px", "17px", "18px", "20px"]}
               minWidth="150px"
             >
               Date of birth :
@@ -79,7 +79,7 @@ const Aboutpage = () => {
             <Text
               color="white"
               textAlign="start"
-              fontSize={["10px", "12px", "15px", "17px"]}
+              fontSize={["15px", "15px", "15px", "17px"]}
             >
               June 3 2001
             </Text>
@@ -88,7 +88,7 @@ const Aboutpage = () => {
           <Flex justifyContent="start" width="70%" alignItems="center">
             <Text
               color="white"
-              fontSize={["12px", "15px", "18px", "20px"]}
+              fontSize={["17px", "17px", "18px", "20px"]}
               minWidth="150px"
             >
               Address :
@@ -96,7 +96,7 @@ const Aboutpage = () => {
             <Text
               color="white"
               textAlign="start"
-              fontSize={["10px", "12px", "15px", "17px"]}
+              fontSize={["15px", "15px", "15px", "17px"]}
             >
               Dehradun (Uttarakhand)
             </Text>
@@ -105,7 +105,7 @@ const Aboutpage = () => {
           <Flex justifyContent="start" width="70%" alignItems="center">
             <Text
               color="white"
-              fontSize={["12px", "15px", "18px", "20px"]}
+              fontSize={["17px", "17px", "18px", "20px"]}
               minWidth="150px"
             >
               Email I'd :
@@ -113,7 +113,7 @@ const Aboutpage = () => {
             <Text
               color="white"
               textAlign="start"
-              fontSize={["5px", "12px", "15px", "17px"]}
+              fontSize={["15px", "15px", "15px", "17px"]}
             >
               amitrawat4532@gmail.com
             </Text>
@@ -122,7 +122,7 @@ const Aboutpage = () => {
           <Flex justifyContent="start" width="70%" alignItems="center">
             <Text
               color="white"
-              fontSize={["10px", "15px", "18px", "20px"]}
+              fontSize={["17px", "17px", "18px", "20px"]}
               minWidth="150px"
             >
               Phone no. :
@@ -130,7 +130,7 @@ const Aboutpage = () => {
             <Text
               color="white"
               textAlign="start"
-              fontSize={["10px", "12px", "15px", "17px"]}
+              fontSize={["15px", "15px", "15px", "17px"]}
             >
               7351225034
             </Text>
