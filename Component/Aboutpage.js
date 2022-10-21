@@ -16,17 +16,19 @@ const Aboutpage = () => {
       <Flex bgColor="black" flexWrap="wrap" height="90vh">
         {/* ****************left container************* */}
         <Flex
-          flex="1"
-          height={["230px", "300px", "500px", "600px"]}
-          alignItems="center"
           justifyContent="center"
+          width={["100%", "100%", "50%", "50%"]}
+          border="2px solid blue"
         >
           <Image
             src="./Images/amit.png"
             height={["150px", "200px", "300px", "350px"]}
-            width="60%"
+            width={["60%", "60%", "60%", "60%"]}
+            alignSelf="center"
+            margin="auto"
           />
         </Flex>
+
         {/* ************************right container***************** */}
 
         <Flex
@@ -36,8 +38,12 @@ const Aboutpage = () => {
           justifyContent="center"
           margin="5px"
           alignItems="Center"
+          width={["100%", "100%", "50%", "50%"]}
         >
-          <Flex justifyContent="start" width="60%">
+          <Flex
+            justifyContent={["center", "center", "start", "start"]}
+            width="60%"
+          >
             <Text color="white" fontSize={["15px", "20px", "25px", "30px"]}>
               {" "}
               This is a Heading{" "}
@@ -106,7 +112,7 @@ const Aboutpage = () => {
             <Text
               color="white"
               textAlign="start"
-              fontSize={["10px", "12px", "15px", "17px"]}
+              fontSize={["5px", "12px", "15px", "17px"]}
             >
               amitrawat4532@gmail.com
             </Text>
@@ -129,7 +135,11 @@ const Aboutpage = () => {
             </Text>
           </Flex>
 
-          <Flex justifyContent="start" width="60%" paddingLeft="20px">
+          <Flex
+            justifyContent={["center", "center", "start", "start"]}
+            width="60%"
+            paddingLeft="20px"
+          >
             <Button
               as="a"
               href="images/suchit singh.png"

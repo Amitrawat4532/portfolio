@@ -36,7 +36,7 @@ const Navbar = () => {
           pt="70px"
         >
           <Text
-            color="white"
+            color={["orange", "orange", "white", "white"]}
             fontSize={["15px", "20px", "25px", "30px"]}
             textTransform="uppercase"
           >
@@ -92,7 +92,7 @@ const Navbar = () => {
           aria-label="Search database"
           icon={<HamburgerIcon />}
           display={["flex", "flex", "none", "none"]}
-          color="white"
+          color="orange"
           background="tranparent"
           fontSize="30px"
         />
@@ -170,10 +170,10 @@ const Navbar = () => {
                 justifyContent="space-evenly"
                 mb="15px"
               >
-                <Image src="./images/instagram.png" />
-                <Image src="./images/viber.png" />
-                <Image src="./images/gmail.png" />
-                <Image src="./images/whatsapp.png" />
+                <Image src="./Images/instagram.png" />
+                <Image src="./Images/viber.png" />
+                <Image src="./Images/gmail.png" />
+                <Image src="./Images/whatsapp.png" />
               </Flex>
             </DrawerFooter>
           </DrawerContent>
