@@ -21,7 +21,6 @@ const Homepage = () => {
           height={["850px", "750px", "700px", "700px"]}
           alignItems="center"
           width="100%"
-          border="3px solid blue"
         >
           <Flex flexDirection="column" justifyContent="center">
             <Text as="p" color="yellow">
@@ -73,12 +72,11 @@ const Homepage = () => {
         {/* Image Container */}
 
         <Flex
-          height={["200px", "200px", "100px", "100px"]}
+          height={["150px", "150px", "100px", "100px"]}
           justifyContent="center"
           width="100%"
           gap={["10px", "10px", "20px", "20px"]}
-          alignItems="end"
-          border="1px solid red"
+          alignItems="center"
         >
           <Image
             src="./Images/instagram.png"
@@ -86,7 +84,7 @@ const Homepage = () => {
             href="www.instagram.com"
           />
           <Image
-            src="./Images/viber.png"
+            src="./Images/git.png"
             height="40px"
             href="www.instagram.com"
           />
@@ -97,6 +95,11 @@ const Homepage = () => {
           />
           <Image
             src="./Images/whatsapp.png"
+            height="40px"
+            href="www.instagram.com"
+          />
+          <Image
+            src="./Images/linkedin.png"
             height="40px"
             href="www.instagram.com"
           />

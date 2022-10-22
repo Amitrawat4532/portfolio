@@ -14,7 +14,7 @@ const Aboutpage = () => {
         </Flex>
 
         {/* ***************************main container**************** */}
-        <Flex bgColor="black" flexWrap="wrap" height="90%">
+        <Flex bgColor="black" flexWrap="wrap" height="100%">
           {/* ****************left container************* */}
           <Flex
             justifyContent="center"
