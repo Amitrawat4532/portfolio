@@ -76,7 +76,7 @@ const Homepage = () => {
           justifyContent="center"
           width="100%"
           gap={["10px", "10px", "20px", "20px"]}
-          alignItems="center"
+          alignItems="start"
         >
           <Image
             src="./Images/instagram.png"

@@ -7,14 +7,14 @@ const Aboutpage = () => {
     <>
       <Box height="100vh" width="100%">
         {/* ***************header container************** */}
-        <Flex height="15%" width="100%" bgColor="black" justifyContent="center">
+        <Flex height="10%" width="100%" bgColor="black" justifyContent="center">
           <Text fontSize="40px" fontWeight="500" color="white">
             ABOUT ME
           </Text>
         </Flex>
 
         {/* ***************************main container**************** */}
-        <Flex bgColor="black" flexWrap="wrap" height="100%">
+        <Flex bgColor="black" flexWrap="wrap" height="100vh">
           {/* ****************left container************* */}
           <Flex
             justifyContent="center"
@@ -35,7 +35,7 @@ const Aboutpage = () => {
           <Flex
             flex="1"
             flexDirection="column"
-            gap={["7%", "7%", "14%", "14%"]}
+            gap={["5%", "7%", "14%", "14%"]}
             justifyContent="center"
             margin="auto"
             alignItems="Center"
