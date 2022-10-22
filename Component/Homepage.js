@@ -18,8 +18,8 @@ const Homepage = () => {
         <Flex
           justifyContent="center"
           flexDirection="column"
-          height={["550px", "500px", "700px", "700px"]}
-          alignItems={["center", "center", "end", "end"]}
+          height={["750px", "750px", "700px", "700px"]}
+          alignItems="center"
           width="100%"
         >
           <Flex flexDirection="column" justifyContent="center">
