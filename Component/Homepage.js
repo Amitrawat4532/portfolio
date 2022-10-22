@@ -10,20 +10,17 @@ const Homepage = () => {
         height="100vh"
         width="100%"
         alignItems="center"
-        border="2px solid white"
         pt="30px"
         flexDirection="column"
-        gap="30px"
+        // gap={["30px", "30px", "0px", "0px"]}
       >
         {/* Detail container */}
         <Flex
           justifyContent="center"
           flexDirection="column"
-          height={["400px", "400px", "300px", "300px"]}
-          // p="0 0 0 185px"
+          height={["550px", "500px", "700px", "800px"]}
           alignItems="center"
           width="100%"
-          border="2px solid white"
         >
           <Flex flexDirection="column" justifyContent="center">
             <Text as="p" color="yellow">
@@ -78,9 +75,8 @@ const Homepage = () => {
           height={["230px", "230px", "100px", "100px"]}
           justifyContent="center"
           width="100%"
-          gap="10px"
-          alignItems="end"
-          border="2px solid white"
+          gap={["10px", "10px", "20px", "20px"]}
+          alignItems={["end", "end", "start", "start"]}
         >
           <Image
             src="./Images/instagram.png"

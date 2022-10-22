@@ -7,31 +7,19 @@ const Aboutpage = () => {
     <>
       <Box height="100vh" width="100%">
         {/* ***************header container************** */}
-        <Flex
-          height="15%"
-          width="100%"
-          bgColor="black"
-          justifyContent="center"
-          border="2px solid white"
-        >
+        <Flex height="15%" width="100%" bgColor="black" justifyContent="center">
           <Text fontSize="40px" fontWeight="500" color="white">
             ABOUT ME
           </Text>
         </Flex>
 
         {/* ***************************main container**************** */}
-        <Flex
-          bgColor="black"
-          flexWrap="wrap"
-          height="90%"
-          border="2px solid white"
-        >
+        <Flex bgColor="black" flexWrap="wrap" height="90%">
           {/* ****************left container************* */}
           <Flex
             justifyContent="center"
             width={["100%", "100%", "50%", "50%"]}
             height={["252px", "252px", "590px", "590px"]}
-            border="2px solid white"
           >
             <Image
               src="./Images/amit.png"
@@ -53,12 +41,11 @@ const Aboutpage = () => {
             alignItems="Center"
             width={["100%", "100%", "50%", "50%"]}
             height={["500px", "250px", "280px", "280px"]}
-            border="2px solid white"
           >
             <Flex
               justifyContent={["center", "center", "start", "start"]}
               width="60%"
-              height="590px"
+              height="100px"
             >
               <Text color="white" fontSize={["20px", "20px", "25px", "30px"]}>
                 {" "}
