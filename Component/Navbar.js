@@ -31,7 +31,7 @@ const Navbar = () => {
         alignItems="center"
         position="absolute"
         w="100%"
-        border="1px solid red"
+        border="1px solid orange"
         h="100px"
       >
         <Box
