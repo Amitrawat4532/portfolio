@@ -33,11 +33,11 @@ const Navbar = () => {
         <Box
           width={["200", "250", "328", "328"]}
           height={["140", "170", "256", "256"]}
-          pt="70px"
+          pt={["15px", "15px", "70px", "70px"]}
         >
           <Text
             color={["orange", "orange", "white", "white"]}
-            fontSize={["15px", "20px", "25px", "30px"]}
+            fontSize={["20px", "20px", "25px", "30px"]}
             textTransform="uppercase"
           >
             {" "}

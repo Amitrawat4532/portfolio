@@ -6,14 +6,14 @@ const Homepage = () => {
     <>
       {/* ************main container*********/}
       <Flex
-        // bgImg="url('/Images/bg.jpg')"
         bgColor="black"
-        height="95vh"
+        height="100vh"
         width="100%"
         alignItems="center"
-        // position="relative"
-
+        border="2px solid white"
         pt="30px"
+        flexDirection="column"
+        gap="30px"
       >
         {/* Detail container */}
         <Flex
@@ -23,6 +23,7 @@ const Homepage = () => {
           // p="0 0 0 185px"
           alignItems="center"
           width="100%"
+          border="2px solid white"
         >
           <Flex flexDirection="column" justifyContent="center">
             <Text as="p" color="yellow">
@@ -72,7 +73,36 @@ const Homepage = () => {
           </Flex>
         </Flex>
         {/* Image Container */}
-        <Flex flex="1"></Flex>
+
+        <Flex
+          height={["230px", "230px", "100px", "100px"]}
+          justifyContent="center"
+          width="100%"
+          gap="10px"
+          alignItems="end"
+          border="2px solid white"
+        >
+          <Image
+            src="./Images/instagram.png"
+            height="40px"
+            href="www.instagram.com"
+          />
+          <Image
+            src="./Images/viber.png"
+            height="40px"
+            href="www.instagram.com"
+          />
+          <Image
+            src="./Images/gmail.png"
+            height="40px"
+            href="www.instagram.com"
+          />
+          <Image
+            src="./Images/whatsapp.png"
+            height="40px"
+            href="www.instagram.com"
+          />
+        </Flex>
       </Flex>
     </>
   );
