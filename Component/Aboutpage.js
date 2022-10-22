@@ -19,11 +19,11 @@ const Aboutpage = () => {
           <Flex
             justifyContent="center"
             width={["100%", "100%", "50%", "50%"]}
-            height={["252px", "252px", "590px", "590px"]}
+            height={["240px", "252px", "590px", "590px"]}
           >
             <Image
               src="./Images/amit.png"
-              height={["250px", "250px", "300px", "350px"]}
+              height={["240px", "250px", "300px", "350px"]}
               width={["60%", "60%", "60%", "60%"]}
               alignSelf="center"
               margin="auto"
@@ -45,7 +45,7 @@ const Aboutpage = () => {
             <Flex
               justifyContent={["center", "center", "start", "start"]}
               width="60%"
-              height="100px"
+              height="90px"
             >
               <Text color="white" fontSize={["20px", "20px", "25px", "30px"]}>
                 {" "}
