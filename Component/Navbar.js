@@ -25,15 +25,18 @@ const Navbar = () => {
     <>
       {/* main container */}
       <Flex
-        justifyContent="space-evenly"
+        justifyContent="space-between"
+        px="6"
+        py="4"
         alignItems="center"
         position="absolute"
         w="100%"
+        border="1px solid red"
+        h="100px"
       >
         <Box
           width={["200", "250", "328", "328"]}
-          height={["140", "170", "256", "256"]}
-          pt={["15px", "15px", "70px", "70px"]}
+          // height={["140", "170", "256", "256"]}
         >
           <Text
             color={["orange", "orange", "white", "white"]}
@@ -47,12 +50,12 @@ const Navbar = () => {
 
         {/* Navbar container desktop */}
         <Flex
-          //   backgroundColor="rgba(255,255,255,0.3)"
+          // backgroundColor="rgba(255,255,255,0.3)"
+          h="100%"
           width="65%"
           justifyContent="center"
+          alignItems="center"
           gap="5"
-          transform="translateY(-34px)"
-          pr="5"
           display={["none", "none", "flex", "flex"]}
         >
           <Button
