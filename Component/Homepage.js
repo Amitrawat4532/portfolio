@@ -18,7 +18,7 @@ const Homepage = () => {
         <Flex
           justifyContent="center"
           flexDirection="column"
-          height={["750px", "750px", "700px", "700px"]}
+          height={["650px", "750px", "700px", "700px"]}
           alignItems="center"
           width="100%"
         >
@@ -76,7 +76,7 @@ const Homepage = () => {
           justifyContent="center"
           width="100%"
           gap={["10px", "10px", "20px", "20px"]}
-          alignItems={["end", "end", "start", "start"]}
+          alignItems="start"
         >
           <Image
             src="./Images/instagram.png"
