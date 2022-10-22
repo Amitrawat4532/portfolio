@@ -18,7 +18,7 @@ const Homepage = () => {
         <Flex
           justifyContent="center"
           flexDirection="column"
-          height={["550px", "500px", "700px", "800px"]}
+          height={["550px", "500px", "700px", "950px"]}
           alignItems="center"
           width="100%"
         >
@@ -72,7 +72,7 @@ const Homepage = () => {
         {/* Image Container */}
 
         <Flex
-          height={["230px", "230px", "100px", "100px"]}
+          height={["100px", "230px", "100px", "100px"]}
           justifyContent="center"
           width="100%"
           gap={["10px", "10px", "20px", "20px"]}
