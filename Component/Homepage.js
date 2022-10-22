@@ -72,11 +72,11 @@ const Homepage = () => {
         {/* Image Container */}
 
         <Flex
-          height={["100px", "100px", "100px", "100px"]}
+          height={["150px", "150px", "100px", "100px"]}
           justifyContent="center"
           width="100%"
           gap={["10px", "10px", "20px", "20px"]}
-          alignItems="start"
+          alignItems="end"
         >
           <Image
             src="./Images/instagram.png"
