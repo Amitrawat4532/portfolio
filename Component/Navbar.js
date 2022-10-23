@@ -77,7 +77,7 @@ const Navbar = () => {
             color="white"
             fontSize={["15px", "20px", "25px", "30px"]}
           >
-            SERVICE
+            My Projects
           </Button>
           <Button
             bgColor="transparent"
@@ -150,7 +150,7 @@ const Navbar = () => {
                 fontFamily="anton"
                 fontWeight="light"
               >
-                Service
+                My Projects
               </Button>
               <Button
                 fontSize="25px"
@@ -161,7 +161,7 @@ const Navbar = () => {
                 fontFamily="anton"
                 fontWeight="light"
               >
-                Contact me
+                Get in Touch
               </Button>
             </Flex>
 
@@ -174,9 +174,9 @@ const Navbar = () => {
                 mb="15px"
               >
                 <Image src="./Images/instagram.png" />
-                <Image src="./Images/viber.png" />
+                <Image src="./Images/git.png" />
                 <Image src="./Images/gmail.png" />
-                <Image src="./Images/whatsapp.png" />
+                <Image src="./Images/linkedin.png" />
               </Flex>
             </DrawerFooter>
           </DrawerContent>

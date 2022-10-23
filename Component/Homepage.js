@@ -94,11 +94,6 @@ const Homepage = () => {
             href="www.instagram.com"
           />
           <Image
-            src="./Images/whatsapp.png"
-            height="40px"
-            href="www.instagram.com"
-          />
-          <Image
             src="./Images/linkedin.png"
             height="40px"
             href="www.instagram.com"

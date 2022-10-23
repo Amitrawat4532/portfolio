@@ -4,12 +4,7 @@ import { Progress } from "@chakra-ui/react";
 const Skills = () => {
   return (
     <>
-      <Flex
-        bgColor="black"
-        border="2px solid white"
-        flexDirection="column"
-        gap="30px"
-      >
+      <Flex bgColor="black" flexDirection="column" gap="60px">
         <Flex height="50px" width="100%" justifyContent="center">
           <Text color="white" fontSize="35px" fontWeight="600">
             SKILLS
@@ -23,7 +18,7 @@ const Skills = () => {
             <Progress
               colorScheme="orange"
               height={["10px", "15px", "20px", "20px"]}
-              value={80}
+              value={90}
             />
 
             <Text color="yellow" textAlign="center">
@@ -33,7 +28,7 @@ const Skills = () => {
             <Progress
               colorScheme="orange"
               height={["10px", "15px", "20px", "20px"]}
-              value={30}
+              value={80}
             />
             <Text color="yellow" textAlign="center">
               JavaScript
@@ -41,7 +36,7 @@ const Skills = () => {
             <Progress
               colorScheme="orange"
               height={["10px", "15px", "20px", "20px"]}
-              value={20}
+              value={50}
             />
             <Text color="yellow" textAlign="center">
               React.js
@@ -49,7 +44,7 @@ const Skills = () => {
             <Progress
               colorScheme="orange"
               height={["10px", "15px", "20px", "20px"]}
-              value={90}
+              value={50}
             />
 
             <Text color="yellow" textAlign="center">
@@ -59,7 +54,7 @@ const Skills = () => {
             <Progress
               colorScheme="orange"
               height={["10px", "15px", "20px", "20px"]}
-              value={20}
+              value={40}
             />
           </Stack>
         </Flex>
