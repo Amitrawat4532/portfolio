@@ -35,6 +35,7 @@ export default function SplitWithImage() {
               margin="auto"
               alignItems="Center"
               width="100%"
+              p="0 20px"
             >
               <Flex justifyContent="start" width="100%" alignItems="center">
                 <Text
@@ -121,7 +122,7 @@ export default function SplitWithImage() {
                 </Text>
               </Flex>
 
-              <Flex justifyContent="center" width="60%">
+              <Flex justifyContent="center" width="60%" pt="30px">
                 <Button
                   as="a"
                   href="images/suchit singh.png"
