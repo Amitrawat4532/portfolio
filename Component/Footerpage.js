@@ -5,7 +5,7 @@ const Footerpage = () => {
   return (
     <>
       <Flex bg="black" textAlign="center" justifyContent="center" width="100%">
-        <Text color="wheat" margin="auto" fontSize="20px">
+        <Text color="wheat" margin="auto" fontSize="20px" p="30px">
           © 2022 Personal Portfolio. All Rights Reserved
         </Text>
       </Flex>

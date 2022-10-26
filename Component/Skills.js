@@ -12,7 +12,7 @@ const Skills = () => {
         height="100vh"
       >
         <Flex
-          height="200px"
+          height="150px"
           width="100%"
           justifyContent="center"
           alignItems="center"

@@ -1,4 +1,4 @@
-import { Button, Flex, Image, Text } from "@chakra-ui/react";
+import { Button, Flex, Image, Text, Link } from "@chakra-ui/react";
 import React from "react";
 
 const Education = () => {
@@ -156,20 +156,20 @@ const Education = () => {
             gap="40px"
           >
             <Flex flexDirection="column" width="60%" alignItems="start">
-              <Text
-                color="white"
-                fontSize={["15px", "15px", "20px", "20px"]}
-                fontWeight="300"
-              >
+              <Link href="https://trekkings-amitrawat4532.vercel.app/">
                 <Text
-                  as="span"
+                  as="a"
                   color="white"
                   fontSize={["15px", "15px", "20px", "20px"]}
                   fontWeight="500"
+                  _hover={{
+                    color: "red",
+                  }}
                 >
                   https://trekkings-amitrawat4532.vercel.app/
                 </Text>
-              </Text>
+              </Link>
+
               <Text
                 Text
                 as="a"
@@ -182,16 +182,20 @@ const Education = () => {
             </Flex>
 
             <Flex flexDirection="column" width="60%" alignItems="start">
-              <Text>
+              <Link href="https://foodpandaa.vercel.app/">
                 <Text
                   as="a"
                   color="white"
                   fontSize={["15px", "15px", "20px", "20px"]}
                   fontWeight="500"
+                  _hover={{
+                    color: "red",
+                  }}
                 >
                   https://foodpandaa.vercel.app/
                 </Text>
-              </Text>
+              </Link>
+
               <Text
                 Text
                 as="a"
@@ -204,20 +208,20 @@ const Education = () => {
             </Flex>
 
             <Flex flexDirection="column" width="60%" alignItems="start">
-              <Text
-                color="white"
-                fontSize={["15px", "15px", "20px", "20px"]}
-                fontWeight="300"
-              >
+              <Link href="https://portfolio-kohl-gamma-15.vercel.app/">
                 <Text
                   as="a"
                   color="white"
                   fontSize={["15px", "15px", "20px", "20px"]}
                   fontWeight="500"
+                  _hover={{
+                    color: "red",
+                  }}
                 >
                   https://portfolio-kohl-gamma-15.vercel.app/
                 </Text>
-              </Text>
+              </Link>
+
               <Text
                 Text
                 as="h4"

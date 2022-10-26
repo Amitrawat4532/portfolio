@@ -78,20 +78,22 @@ export default function ContactFormWithSocialButtons() {
                 justify="space-around"
                 direction={{ base: "row", md: "column" }}
               >
-                <IconButton
-                  aria-label="email"
-                  variant="ghost"
-                  size="lg"
-                  fontSize="3xl"
-                  color="white"
-                  icon={<BsFacebook />}
-                  _hover={{
-                    bg: "blue.500",
-                    color: "red",
-                  }}
-                />
+                <Link href="https://www.facebook.com/profile.php?id=100005578184906&sk=friends">
+                  <IconButton
+                    aria-label="facebook"
+                    variant="ghost"
+                    size="lg"
+                    fontSize="3xl"
+                    color="white"
+                    icon={<BsFacebook />}
+                    _hover={{
+                      bg: "blue.500",
+                      color: "red",
+                    }}
+                  />
+                </Link>
 
-                <Link href="#">
+                <Link href="https://github.com/Amitrawat4532">
                   <IconButton
                     aria-label="github"
                     variant="ghost"
@@ -107,7 +109,7 @@ export default function ContactFormWithSocialButtons() {
                   />
                 </Link>
 
-                <Link href="#">
+                <Link href="https://www.instagram.com/amitrawat4532/">
                   <IconButton
                     aria-label="twitter"
                     variant="ghost"
@@ -122,7 +124,7 @@ export default function ContactFormWithSocialButtons() {
                   />
                 </Link>
 
-                <Link href="#">
+                <Link href="https:www.linkedin.com/in/suchit-singh-368a05229">
                   <IconButton
                     aria-label="linkedin"
                     variant="ghost"
