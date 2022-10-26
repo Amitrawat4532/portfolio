@@ -1,5 +1,14 @@
-import { Button, Flex, Image, Text } from "@chakra-ui/react";
+import {
+  Button,
+  Flex,
+  Link,
+  Text,
+  IconButton,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import React from "react";
+import { MdEmail, MdOutlineEmail } from "react-icons/md";
+import { BsGithub, BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs";
 
 const Homepage = () => {
   return (
@@ -46,7 +55,7 @@ const Homepage = () => {
               <Button
                 as="a"
                 href="images/suchit singh.png"
-                target="#"
+                target="_blank"
                 color="black"
                 bgColor="orange"
                 borderRadius="5px"
@@ -57,8 +66,8 @@ const Homepage = () => {
 
               <Button
                 as="a"
-                href=""
-                target="#"
+                href="https://github.com/Amitrawat4532"
+                target="_blank"
                 color="black"
                 bgColor="orange"
                 borderRadius="5px"
@@ -78,26 +87,68 @@ const Homepage = () => {
           gap={["10px", "10px", "20px", "20px"]}
           alignItems="start"
         >
-          <Image
-            src="./Images/instagram.png"
-            height="40px"
-            href="www.instagram.com"
-          />
-          <Image
-            src="./Images/git.png"
-            height="40px"
-            href="www.instagram.com"
-          />
-          <Image
-            src="./Images/gmail.png"
-            height="40px"
-            href="www.instagram.com"
-          />
-          <Image
-            src="./Images/linkedin.png"
-            height="40px"
-            href="www.instagram.com"
-          />
+          <Link href="https://github.com/Amitrawat4532" target="_blank">
+            <IconButton
+              aria-label="github"
+              variant="ghost"
+              size="lg"
+              fontSize="3xl"
+              color="white"
+              icon={<BsGithub />}
+              _hover={{
+                bg: "blue.500",
+                color: useColorModeValue("white", "gray.700"),
+              }}
+              isRound
+            />
+          </Link>
+          <Link href="amitrawat4532@gmail.com" target="_blank">
+            <IconButton
+              aria-label="Email"
+              variant="ghost"
+              size="lg"
+              fontSize="3xl"
+              color="white"
+              icon={<MdEmail />}
+              _hover={{
+                bg: "blue.500",
+                color: useColorModeValue("white", "gray.700"),
+              }}
+            />
+          </Link>
+
+          <Link href="https://www.instagram.com/amitrawat4532/" target="_blank">
+            <IconButton
+              aria-label="twitter"
+              variant="ghost"
+              size="lg"
+              color="white"
+              icon={<BsInstagram size="28px" />}
+              _hover={{
+                bg: "blue.500",
+                color: useColorModeValue("white", "gray.700"),
+              }}
+              isRound
+            />
+          </Link>
+
+          <Link
+            href="https:www.linkedin.com/in/suchit-singh-368a05229"
+            target="_blank"
+          >
+            <IconButton
+              aria-label="linkedin"
+              variant="ghost"
+              size="lg"
+              color="white"
+              icon={<BsLinkedin size="28px" />}
+              _hover={{
+                bg: "blue.500",
+                color: useColorModeValue("white", "gray.700"),
+              }}
+              isRound
+            />
+          </Link>
         </Flex>
       </Flex>
     </>

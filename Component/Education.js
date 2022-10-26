@@ -143,6 +143,8 @@ const Education = () => {
             width="100%"
             justifyContent="center"
             alignItems="center"
+            padding="10px"
+            margin="auto"
           >
             <Text color="white" fontSize="35px" fontWeight="600">
               My Projects

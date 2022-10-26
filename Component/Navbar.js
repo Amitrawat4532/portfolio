@@ -1,21 +1,23 @@
 import React, { useRef } from "react";
-import { HStack, IconButton } from "@chakra-ui/react";
+import { IconButton } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import { ButtonGroup } from "@chakra-ui/react";
 
 import {
   Box,
   Text,
+  Link,
   Button,
   Flex,
-  Image,
   Drawer,
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
   useDisclosure,
   DrawerFooter,
+  useColorModeValue,
 } from "@chakra-ui/react";
+import { MdEmail } from "react-icons/md";
+import { BsGithub, BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -171,11 +173,68 @@ const Navbar = () => {
                 width="100%"
                 justifyContent="space-evenly"
                 mb="15px"
+                color="black"
               >
-                <Image src="./Images/instagram.png" />
-                <Image src="./Images/git.png" />
-                <Image src="./Images/gmail.png" />
-                <Image src="./Images/linkedin.png" />
+                <Link href="https://www.facebook.com/profile.php?id=100005578184906&sk=friends">
+                  <IconButton
+                    aria-label="facebook"
+                    variant="ghost"
+                    size="lg"
+                    fontSize="3xl"
+                    color="red"
+                    icon={<MdEmail />}
+                    _hover={{
+                      bg: "blue.500",
+                      color: useColorModeValue("white", "gray.700"),
+                    }}
+                  />
+                </Link>
+
+                <Link href="https://github.com/Amitrawat4532">
+                  <IconButton
+                    aria-label="github"
+                    variant="ghost"
+                    size="lg"
+                    fontSize="3xl"
+                    color="red"
+                    icon={<BsGithub />}
+                    _hover={{
+                      bg: "blue.500",
+                      color: useColorModeValue("white", "gray.700"),
+                    }}
+                    isRound
+                  />
+                </Link>
+
+                <Link href="https://www.instagram.com/amitrawat4532/">
+                  <IconButton
+                    aria-label="twitter"
+                    variant="ghost"
+                    size="lg"
+                    color="red"
+                    icon={<BsInstagram size="28px" />}
+                    _hover={{
+                      bg: "blue.500",
+                      color: useColorModeValue("white", "gray.700"),
+                    }}
+                    isRound
+                  />
+                </Link>
+
+                <Link href="https:www.linkedin.com/in/suchit-singh-368a05229">
+                  <IconButton
+                    aria-label="linkedin"
+                    variant="ghost"
+                    size="lg"
+                    color="red"
+                    icon={<BsLinkedin size="28px" />}
+                    _hover={{
+                      bg: "blue.500",
+                      color: useColorModeValue("white", "gray.700"),
+                    }}
+                    isRound
+                  />
+                </Link>
               </Flex>
             </DrawerFooter>
           </DrawerContent>

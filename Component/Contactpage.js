@@ -85,10 +85,10 @@ export default function ContactFormWithSocialButtons() {
                     size="lg"
                     fontSize="3xl"
                     color="white"
-                    icon={<BsFacebook />}
+                    icon={<MdEmail />}
                     _hover={{
                       bg: "blue.500",
-                      color: "red",
+                      color: useColorModeValue("white", "gray.700"),
                     }}
                   />
                 </Link>

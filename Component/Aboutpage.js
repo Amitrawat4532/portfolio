@@ -40,7 +40,7 @@ export default function SplitWithImage() {
                 <Text
                   color="white"
                   fontSize={["17px", "17px", "18px", "20px"]}
-                  minWidth="150px"
+                  minWidth="120px"
                 >
                   Name :
                 </Text>
@@ -57,7 +57,7 @@ export default function SplitWithImage() {
                 <Text
                   color="white"
                   fontSize={["17px", "17px", "18px", "20px"]}
-                  minWidth="150px"
+                  minWidth="120px"
                 >
                   Date of birth :
                 </Text>
@@ -74,7 +74,7 @@ export default function SplitWithImage() {
                 <Text
                   color="white"
                   fontSize={["17px", "17px", "18px", "20px"]}
-                  minWidth="150px"
+                  minWidth="120px"
                 >
                   Address :
                 </Text>
@@ -91,7 +91,7 @@ export default function SplitWithImage() {
                 <Text
                   color="white"
                   fontSize={["17px", "17px", "18px", "20px"]}
-                  minWidth="150px"
+                  minWidth="120px"
                 >
                   Email I'd :
                 </Text>
@@ -108,7 +108,7 @@ export default function SplitWithImage() {
                 <Text
                   color="white"
                   fontSize={["17px", "17px", "18px", "20px"]}
-                  minWidth="150px"
+                  minWidth="120px"
                 >
                   Phone no. :
                 </Text>
