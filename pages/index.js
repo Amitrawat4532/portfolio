@@ -4,8 +4,7 @@ import Education from "../Component/Education";
 import Homepage from "../Component/Homepage";
 import Navbar from "../Component/Navbar";
 import Skills from "../Component/Skills";
-import Projects from "../Component/Projects";
-import Contactpage from "../Component/Contactpage";
+import Contact from "../Component/Contactpage";
 import Footerpage from "../Component/Footerpage";
 const index = () => {
   return (
@@ -15,8 +14,7 @@ const index = () => {
       <Aboutpage />
       <Education />
       <Skills />
-      <Projects />
-      <Contactpage />
+      <Contact />
       <Footerpage />
     </>
   );

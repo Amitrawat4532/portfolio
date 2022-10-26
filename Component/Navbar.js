@@ -77,7 +77,7 @@ const Navbar = () => {
             color="white"
             fontSize={["15px", "20px", "25px", "30px"]}
           >
-            My Projects
+            MY PROJECTS
           </Button>
           <Button
             bgColor="transparent"
