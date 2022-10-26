@@ -35,7 +35,7 @@ export default function SplitWithImage() {
               margin="auto"
               alignItems="Center"
               width="100%"
-              p="0 20px"
+              p="0 30px"
             >
               <Flex justifyContent="start" width="100%" alignItems="center">
                 <Text
