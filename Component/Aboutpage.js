@@ -14,7 +14,7 @@ export default function SplitWithImage() {
     <Box bgColor="black">
       <Container maxW={"5xl"} py={12}>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
-          <Stack spacing={4}>
+          <Stack spacing={4} margin="auto">
             <Text
               textTransform={"uppercase"}
               color={"white"}
@@ -32,10 +32,10 @@ export default function SplitWithImage() {
               flexDirection="column"
               gap="5%"
               justifyContent="center"
-              margin="auto"
               alignItems="Center"
               width="100%"
-              p="0 30px"
+              margin="auto"
+              border="2px solid blue"
             >
               <Flex justifyContent="start" width="100%" alignItems="center">
                 <Text
@@ -58,7 +58,7 @@ export default function SplitWithImage() {
                 <Text
                   color="white"
                   fontSize={["17px", "17px", "18px", "20px"]}
-                  minWidth="120px"
+                  minWidth="150px"
                 >
                   Date of birth :
                 </Text>
