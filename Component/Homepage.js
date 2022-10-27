@@ -7,8 +7,9 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import React from "react";
-import { MdEmail, MdOutlineEmail } from "react-icons/md";
-import { BsGithub, BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+// import Typewriter from "typewriter-effect";
 
 const Homepage = () => {
   return (
@@ -150,6 +151,21 @@ const Homepage = () => {
             />
           </Link>
         </Flex>
+
+        {/* <Flex>
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+
+                .typeString("Suchit Singh")
+
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Welcomes You")
+                .start();
+            }}
+          />
+        </Flex> */}
       </Flex>
     </>
   );
