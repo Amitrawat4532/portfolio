@@ -59,6 +59,7 @@ const Navbar = () => {
           gap="5"
           display={["none", "none", "flex", "flex"]}
         >
+          <link href="#home"></link>
           <Button
             bgColor="transparent"
             color="white"
