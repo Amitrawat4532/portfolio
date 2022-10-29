@@ -138,7 +138,25 @@ export default function SplitWithImage() {
               </Flex>
             </Flex>
           </Stack>
-          <Flex>
+          <Flex
+            overflowY="auto"
+            css={{
+              "&::-webkit-scrollbar": {
+                width: "4px",
+                height: "4px",
+              },
+              "&::-webkit-scrollbar-track": {
+                width: "6px",
+                marginTop: "15px",
+              },
+              "&::-webkit-scrollbar-thumb": {
+                background: "gray",
+                borderRadius: "24px",
+              },
+            }}
+            scrollSnapType="x mandatory"
+            px={["8", "8", "0", "0"]}
+          >
             <Image
               rounded={"md"}
               alt={"feature image"}

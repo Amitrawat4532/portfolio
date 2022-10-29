@@ -16,6 +16,7 @@ const Homepage = () => {
     <>
       {/* ************main container*********/}
       <Flex
+        id="homepage"
         bgColor="black"
         height="100vh"
         width="100%"
@@ -94,7 +95,7 @@ const Homepage = () => {
               variant="ghost"
               size="lg"
               fontSize="3xl"
-              color="white"
+              color="orange"
               icon={<BsGithub />}
               _hover={{
                 bg: "blue.500",
@@ -109,7 +110,7 @@ const Homepage = () => {
               variant="ghost"
               size="lg"
               fontSize="3xl"
-              color="white"
+              color="orange"
               icon={<MdEmail />}
               _hover={{
                 bg: "blue.500",
@@ -123,7 +124,7 @@ const Homepage = () => {
               aria-label="twitter"
               variant="ghost"
               size="lg"
-              color="white"
+              color="orange"
               icon={<BsInstagram size="28px" />}
               _hover={{
                 bg: "blue.500",
@@ -141,7 +142,7 @@ const Homepage = () => {
               aria-label="linkedin"
               variant="ghost"
               size="lg"
-              color="white"
+              color="orange"
               icon={<BsLinkedin size="28px" />}
               _hover={{
                 bg: "blue.500",
@@ -151,21 +152,6 @@ const Homepage = () => {
             />
           </Link>
         </Flex>
-
-        {/* <Flex>
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-
-                .typeString("Suchit Singh")
-
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("Welcomes You")
-                .start();
-            }}
-          />
-        </Flex> */}
       </Flex>
     </>
   );
