@@ -17,7 +17,8 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { MdEmail } from "react-icons/md";
-import { BsGithub, BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+import jump from "jump.js";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -59,11 +60,14 @@ const Navbar = () => {
           gap="5"
           display={["none", "none", "flex", "flex"]}
         >
-          <link href="#home"></link>
+          {/* <link href="#home"></link> */}
           <Button
             bgColor="transparent"
             color="white"
             fontSize={["0", "0", "25px", "30px"]}
+            onClick={() => {
+              jump(".Home_container");
+            }}
           >
             HOME
           </Button>
@@ -71,6 +75,9 @@ const Navbar = () => {
             bgColor="transparent"
             color="white"
             fontSize={["15px", "20px", "25px", "30px"]}
+            onClick={() => {
+              jump(".about_container");
+            }}
           >
             ABOUT ME
           </Button>
@@ -78,6 +85,9 @@ const Navbar = () => {
             bgColor="transparent"
             color="white"
             fontSize={["15px", "20px", "25px", "30px"]}
+            onClick={() => {
+              jump(".myproject_container");
+            }}
           >
             MY PROJECTS
           </Button>
@@ -85,6 +95,9 @@ const Navbar = () => {
             bgColor="transparent"
             color="white"
             fontSize={["15px", "20px", "25px", "30px"]}
+            onClick={() => {
+              jump(".Contact_container");
+            }}
           >
             CONTACT ME
           </Button>
@@ -129,6 +142,9 @@ const Navbar = () => {
                 w="100%"
                 fontFamily="anton"
                 fontWeight="light"
+                onClick={() => {
+                  jump(".Home_container");
+                }}
               >
                 Home
               </Button>
@@ -140,6 +156,9 @@ const Navbar = () => {
                 w="100%"
                 fontFamily="anton"
                 fontWeight="light"
+                onClick={() => {
+                  jump(".about_container");
+                }}
               >
                 About{" "}
               </Button>
@@ -151,6 +170,9 @@ const Navbar = () => {
                 w="100%"
                 fontFamily="anton"
                 fontWeight="light"
+                onClick={() => {
+                  jump(".Contact_container");
+                }}
               >
                 My Projects
               </Button>

@@ -6,9 +6,12 @@ import {
   IconButton,
   useColorModeValue,
 } from "@chakra-ui/react";
+
 import React from "react";
 import { MdEmail } from "react-icons/md";
 import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+
 // import Typewriter from "typewriter-effect";
 
 const Homepage = () => {
@@ -16,6 +19,7 @@ const Homepage = () => {
     <>
       {/* ************main container*********/}
       <Flex
+        className="Home_container"
         id="homepage"
         bgColor="black"
         height="100vh"
@@ -34,24 +38,29 @@ const Homepage = () => {
           width="100%"
         >
           <Flex flexDirection="column" justifyContent="center">
-            <Text as="p" color="yellow">
-              Hello!
-            </Text>
-            <Text
-              as="h1"
-              fontSize={["40px", "50px", "50px", "50px"]}
-              color="#f8e2e2"
+            <AnimationOnScroll
+              animateIn="animate__fadeInUp"
+              initiallyVisible={true}
             >
-              I'am <br />
-              <Text as="span" color="orange">
-                Suchit Singh
+              <Text as="p" color="yellow">
+                Hello!
               </Text>
-            </Text>
-            <Text as="p" color="yellow">
-              A Web Developer
-            </Text>
-            <br />
-
+              <Text
+                as="h1"
+                fontSize={["40px", "50px", "50px", "50px"]}
+                color="#f8e2e2"
+                id="headings"
+              >
+                I'am <br />
+                <Text as="span" color="orange">
+                  Suchit Singh
+                </Text>
+              </Text>
+              <Text as="p" color="yellow">
+                A Web Developer
+              </Text>
+              <br />
+            </AnimationOnScroll>
             {/* ************************buttons****************** */}
             <Flex gap="5px">
               <Button

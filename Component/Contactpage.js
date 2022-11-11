@@ -44,6 +44,7 @@ export default function ContactFormWithSocialButtons() {
 
   return (
     <Flex
+      className="Contact_container"
       bg={useColorModeValue("gray.100", "gray.900")}
       align="center"
       justify="center"
@@ -78,7 +79,7 @@ export default function ContactFormWithSocialButtons() {
                 justify="space-around"
                 direction={{ base: "row", md: "column" }}
               >
-                <Link href="https://www.facebook.com/profile.php?id=100005578184906&sk=friends">
+                <Link href="amitrawat4532@gmail.com" target="#blank">
                   <IconButton
                     aria-label="facebook"
                     variant="ghost"
@@ -93,7 +94,7 @@ export default function ContactFormWithSocialButtons() {
                   />
                 </Link>
 
-                <Link href="https://github.com/Amitrawat4532">
+                <Link href="https://github.com/Amitrawat4532" target="#blank">
                   <IconButton
                     aria-label="github"
                     variant="ghost"
@@ -109,7 +110,10 @@ export default function ContactFormWithSocialButtons() {
                   />
                 </Link>
 
-                <Link href="https://www.instagram.com/amitrawat4532/">
+                <Link
+                  href="https://www.instagram.com/amitrawat4532/"
+                  target="#blank"
+                >
                   <IconButton
                     aria-label="twitter"
                     variant="ghost"
@@ -124,7 +128,10 @@ export default function ContactFormWithSocialButtons() {
                   />
                 </Link>
 
-                <Link href="https:www.linkedin.com/in/suchit-singh-368a05229">
+                <Link
+                  href="https:www.linkedin.com/in/suchit-singh-368a05229"
+                  target="#blank"
+                >
                   <IconButton
                     aria-label="linkedin"
                     variant="ghost"

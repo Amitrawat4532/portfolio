@@ -5,7 +5,10 @@ const Education = () => {
   return (
     <>
       {/* **********************************main container**************************** */}
-      <Flex flexDirection={["column", "column", "row", "row"]}>
+      <Flex
+        flexDirection={["column", "column", "row", "row"]}
+        className="myproject_container"
+      >
         {/* ************************left container******************** */}
         <Flex
           bgColor="black"
@@ -47,7 +50,6 @@ const Education = () => {
                 </Text>
               </Text>
               <Text
-                Text
                 as="h4"
                 color="white"
                 fontSize={["15px", "15px", "20px", "20px"]}
@@ -66,15 +68,13 @@ const Education = () => {
             </Flex>
 
             <Flex flexDirection="column" width="60%" alignItems="start">
-              <Text>
-                <Text
-                  as="span"
-                  color="white"
-                  fontSize={["15px", "15px", "20px", "20px"]}
-                  fontWeight="500"
-                >
-                  2018-2019
-                </Text>
+              <Text
+                as="span"
+                color="white"
+                fontSize={["15px", "15px", "20px", "20px"]}
+                fontWeight="500"
+              >
+                2018-2019
               </Text>
               <Text
                 Text
@@ -111,7 +111,6 @@ const Education = () => {
                 </Text>
               </Text>
               <Text
-                Text
                 as="h4"
                 color="white"
                 fontSize={["15px", "15px", "20px", "20px"]}
@@ -158,9 +157,11 @@ const Education = () => {
             gap="40px"
           >
             <Flex flexDirection="column" width="60%" alignItems="start">
-              <Link href="https://trekkings-amitrawat4532.vercel.app/">
+              <Link
+                href="https://trekkings-amitrawat4532.vercel.app/"
+                target="#blank"
+              >
                 <Text
-                  as="a"
                   color="white"
                   fontSize={["15px", "15px", "20px", "20px"]}
                   fontWeight="500"
@@ -173,8 +174,6 @@ const Education = () => {
               </Link>
 
               <Text
-                Text
-                as="a"
                 color="white"
                 fontSize={["15px", "15px", "20px", "20px"]}
                 fontWeight="300"
@@ -184,9 +183,8 @@ const Education = () => {
             </Flex>
 
             <Flex flexDirection="column" width="60%" alignItems="start">
-              <Link href="https://foodpandaa.vercel.app/">
+              <Link href="https://foodpandaa.vercel.app/" target="#blank">
                 <Text
-                  as="a"
                   color="white"
                   fontSize={["15px", "15px", "20px", "20px"]}
                   fontWeight="500"
@@ -199,8 +197,6 @@ const Education = () => {
               </Link>
 
               <Text
-                Text
-                as="a"
                 color="white"
                 fontSize={["15px", "15px", "20px", "20px"]}
                 fontWeight="300"
@@ -210,9 +206,11 @@ const Education = () => {
             </Flex>
 
             <Flex flexDirection="column" width="60%" alignItems="start">
-              <Link href="https://portfolio-kohl-gamma-15.vercel.app/">
+              <Link
+                href="https://portfolio-kohl-gamma-15.vercel.app/"
+                target="#blank"
+              >
                 <Text
-                  as="a"
                   color="white"
                   fontSize={["15px", "15px", "20px", "20px"]}
                   fontWeight="500"
@@ -225,7 +223,6 @@ const Education = () => {
               </Link>
 
               <Text
-                Text
                 as="h4"
                 color="white"
                 fontSize={["15px", "15px", "20px", "20px"]}

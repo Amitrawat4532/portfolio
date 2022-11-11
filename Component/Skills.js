@@ -45,7 +45,7 @@ const Skills = () => {
               <Progress
                 colorScheme="red"
                 height={["10px", "15px", "20px", "20px"]}
-                value={80}
+                value={40}
               />
               <Text color="white" textAlign="center">
                 Chakra UI
@@ -53,7 +53,7 @@ const Skills = () => {
               <Progress
                 colorScheme="red"
                 height={["10px", "15px", "20px", "20px"]}
-                value={50}
+                value={60}
               />
               <Text color="white" textAlign="center">
                 Next.js
@@ -61,7 +61,7 @@ const Skills = () => {
               <Progress
                 colorScheme="red"
                 height={["10px", "15px", "20px", "20px"]}
-                value={50}
+                value={60}
               />
             </Stack>
           </Flex>
@@ -85,7 +85,7 @@ const Skills = () => {
               <Progress
                 colorScheme="red"
                 height={["10px", "15px", "20px", "20px"]}
-                value={80}
+                value={60}
               />
               <Text color="white" textAlign="center">
                 React.Js
