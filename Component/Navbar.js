@@ -144,6 +144,7 @@ const Navbar = () => {
                 fontWeight="light"
                 onClick={() => {
                   jump(".Home_container");
+                  onClose();
                 }}
               >
                 Home
@@ -158,6 +159,7 @@ const Navbar = () => {
                 fontWeight="light"
                 onClick={() => {
                   jump(".about_container");
+                  onClose();
                 }}
               >
                 About{" "}
@@ -171,7 +173,8 @@ const Navbar = () => {
                 fontFamily="anton"
                 fontWeight="light"
                 onClick={() => {
-                  jump(".Contact_container");
+                  jump(".myproject_container");
+                  onClose();
                 }}
               >
                 My Projects
@@ -184,6 +187,10 @@ const Navbar = () => {
                 w="100%"
                 fontFamily="anton"
                 fontWeight="light"
+                onClick={() => {
+                  jump(".Contact_container");
+                  onClose();
+                }}
               >
                 Get in Touch
               </Button>

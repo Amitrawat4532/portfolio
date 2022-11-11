@@ -5,10 +5,7 @@ const Education = () => {
   return (
     <>
       {/* **********************************main container**************************** */}
-      <Flex
-        flexDirection={["column", "column", "row", "row"]}
-        className="myproject_container"
-      >
+      <Flex flexDirection={["column", "column", "row", "row"]}>
         {/* ************************left container******************** */}
         <Flex
           bgColor="black"
@@ -136,6 +133,7 @@ const Education = () => {
           gap="30px"
           justifyContent="center"
           width={["100%", "100%", "50%", "50%"]}
+          className="myproject_container"
         >
           <Flex
             height="120px"
