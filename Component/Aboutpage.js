@@ -10,6 +10,16 @@ import {
 } from "@chakra-ui/react";
 
 export default function SplitWithImage() {
+  const handleDownload = () => {
+    // Replace 'path/to/your/cv.pdf' with the correct path to your PDF file
+    const cvPath = '/Images/Suchit@resume.pdf';
+    const link = document.createElement('a');
+    link.href = cvPath;
+    link.setAttribute('download', 'Suchit singh.pdf'); // Change 'YourCV.pdf' to the desired filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <Box bgColor="black" className="about_container">
       <Container maxW={"5xl"} py={12}>
@@ -93,7 +103,7 @@ export default function SplitWithImage() {
                   fontSize={["17px", "17px", "18px", "20px"]}
                   minWidth="120px"
                 >
-                  Email I'd :
+                  Email I&apos;d :
                 </Text>
                 <Text
                   color="white"
@@ -122,19 +132,19 @@ export default function SplitWithImage() {
               </Flex>
 
               <Flex justifyContent="center" width="60%" pt="30px">
-                <Button
-                  as="a"
-                  href="images/suchit singh.png"
-                  target="#"
-                  color="black"
-                  bgColor="orange"
-                  borderRadius="30px"
-                  width={["80px", "80px", "120px", "120px"]}
-                  height={["30px", "30px", "60px", "60px"]}
-                  fontSize={["12px", "12px", "17px", "17px"]}
-                >
-                  view my cv
-                </Button>
+              <Button
+              onClick={handleDownload}
+                
+               
+               
+                color="black"
+                bgColor="orange"
+                borderRadius="5px"
+                width="100%"
+                p="10px"
+              >
+                View Resume 
+              </Button>
               </Flex>
             </Flex>
           </Stack>

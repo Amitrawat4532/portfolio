@@ -36,25 +36,13 @@ const Navbar = () => {
         w="100%"
         h="100px"
       >
-        <Box
-          width={["200", "250", "328", "328"]}
-          // height={["140", "170", "256", "256"]}
-        >
-          <Text
-            color={["orange", "orange", "white", "white"]}
-            fontSize={["20px", "20px", "25px", "30px"]}
-            textTransform="uppercase"
-          >
-            {" "}
-            PERSONAL PORTFOLIO
-          </Text>
-        </Box>
+        
 
         {/* Navbar container desktop */}
         <Flex
           // backgroundColor="rgba(255,255,255,0.3)"
           h="100%"
-          width="65%"
+          width="100%"
           justifyContent="center"
           alignItems="center"
           gap="5"
@@ -64,42 +52,46 @@ const Navbar = () => {
           <Button
             bgColor="transparent"
             color="white"
-            fontSize={["0", "0", "25px", "30px"]}
+            fontSize={["0", "0", "25px", "25px"]}
             onClick={() => {
               jump(".Home_container");
             }}
+            _hover={{color:"red"}}
           >
-            HOME
+            Home
           </Button>
           <Button
             bgColor="transparent"
             color="white"
-            fontSize={["15px", "20px", "25px", "30px"]}
+            fontSize={["15px", "20px", "25px", "25px"]}
             onClick={() => {
               jump(".about_container");
             }}
+            _hover={{color:"red"}}
           >
-            ABOUT ME
+            About Me
           </Button>
           <Button
             bgColor="transparent"
             color="white"
-            fontSize={["15px", "20px", "25px", "30px"]}
+            fontSize={["15px", "20px", "25px", "25px"]}
             onClick={() => {
               jump(".myproject_container");
             }}
+            _hover={{color:"red"}}
           >
-            MY PROJECTS
+            My Projects
           </Button>
           <Button
             bgColor="transparent"
             color="white"
-            fontSize={["15px", "20px", "25px", "30px"]}
+            fontSize={["15px", "20px", "25px", "25px"]}
             onClick={() => {
               jump(".Contact_container");
             }}
+            _hover={{color:"red"}}
           >
-            CONTACT ME
+            Contact Me
           </Button>
         </Flex>
 

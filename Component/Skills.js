@@ -9,7 +9,9 @@ const Skills = () => {
         flexDirection="column"
         gap="60px"
         width="100%"
-        height="100vh"
+        height="100%"
+    pt={["20px", "30px","40px","200px"]}
+
       >
         <Flex
           height="150px"
@@ -63,6 +65,30 @@ const Skills = () => {
                 height={["10px", "15px", "20px", "20px"]}
                 value={60}
               />
+                <Text color="white" textAlign="center">
+                React.Js
+              </Text>
+              <Progress
+                colorScheme="red"
+                height={["10px", "15px", "20px", "20px"]}
+                value={50}
+              />
+              <Text color="white" textAlign="center">
+               Tailwind CSS
+              </Text>
+              <Progress
+                colorScheme="red"
+                height={["10px", "15px", "20px", "20px"]}
+                value={80}
+              />
+               <Text color="white" textAlign="center">
+                Wix Web Development
+              </Text>
+              <Progress
+                colorScheme="red"
+                height={["10px", "15px", "20px", "20px"]}
+                value={70}
+              />
             </Stack>
           </Flex>
 
@@ -85,18 +111,50 @@ const Skills = () => {
               <Progress
                 colorScheme="red"
                 height={["10px", "15px", "20px", "20px"]}
-                value={60}
+                value={70}
               />
+            
+             
+              
+              
+              
               <Text color="white" textAlign="center">
-                React.Js
+               Wordpress
               </Text>
               <Progress
                 colorScheme="red"
                 height={["10px", "15px", "20px", "20px"]}
-                value={50}
+                value={70}
               />
+              
               <Text color="white" textAlign="center">
-                Wix Web Development
+               Shopify
+              </Text>
+              <Progress
+                colorScheme="red"
+                height={["10px", "15px", "20px", "20px"]}
+                value={80}
+              />
+                
+              <Text color="white" textAlign="center">
+               WebFlow
+              </Text>
+              <Progress
+                colorScheme="red"
+                height={["10px", "15px", "20px", "20px"]}
+                value={70}
+              />
+              
+              <Text color="white" textAlign="center">
+               SEO
+              </Text>
+              <Progress
+                colorScheme="red"
+                height={["10px", "15px", "20px", "20px"]}
+                value={70}
+              />
+               <Text color="white" textAlign="center">
+               GIT
               </Text>
               <Progress
                 colorScheme="red"

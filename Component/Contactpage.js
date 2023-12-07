@@ -12,7 +12,6 @@ import {
   Link,
   Stack,
   Textarea,
-  Tooltip,
   useClipboard,
   useColorModeValue,
   VStack,
@@ -22,7 +21,6 @@ import {
   BsGithub,
   BsLinkedin,
   BsPerson,
-  BsFacebook,
   BsInstagram,
 } from "react-icons/bs";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";

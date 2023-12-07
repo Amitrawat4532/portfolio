@@ -11,10 +11,26 @@ import React from "react";
 import { MdEmail } from "react-icons/md";
 import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import useTypewriter from 'react-typewriter-hook';
 
 // import Typewriter from "typewriter-effect";
 
 const Homepage = () => {
+  const text = 'Web Developer';
+
+  const typedText = useTypewriter(text);
+  const Mail= "amitrawat4532@gmail.com"
+
+  const handleDownload = () => {
+    // Replace 'path/to/your/cv.pdf' with the correct path to your PDF file
+    const cvPath = '/Images/Suchit@resume.pdf';
+    const link = document.createElement('a');
+    link.href = cvPath;
+    link.setAttribute('download', 'Suchit singh.pdf'); // Change 'YourCV.pdf' to the desired filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <>
       {/* ************main container*********/}
@@ -45,36 +61,39 @@ const Homepage = () => {
               <Text as="p" color="yellow">
                 Hello!
               </Text>
+           
               <Text
                 as="h1"
                 fontSize={["40px", "50px", "50px", "50px"]}
                 color="#f8e2e2"
                 id="headings"
               >
-                I'am <br />
+                I&apos;am <br />
                 <Text as="span" color="orange">
                   Suchit Singh
                 </Text>
               </Text>
               <Text as="p" color="yellow">
-                A Web Developer
+              {typedText}
               </Text>
               <br />
             </AnimationOnScroll>
             {/* ************************buttons****************** */}
             <Flex gap="5px">
               <Button
-                as="a"
-                href="images/suchit singh.png"
-                target="_blank"
+              onClick={handleDownload}
+                
+               
+               
                 color="black"
                 bgColor="orange"
                 borderRadius="5px"
-                width="100px"
+                width="100%"
+                p="10px"
               >
-                view my CV
+                View Resume 
               </Button>
-
+              
               <Button
                 as="a"
                 href="https://github.com/Amitrawat4532"
@@ -82,7 +101,9 @@ const Homepage = () => {
                 color="black"
                 bgColor="orange"
                 borderRadius="5px"
-                width="150px"
+                width="100%"
+                p="10px"
+
               >
                 my git account
               </Button>
@@ -113,7 +134,7 @@ const Homepage = () => {
               isRound
             />
           </Link>
-          <Link href="amitrawat4532@gmail.com" target="_blank">
+          <Link href={`mailto:${Mail}`} target="_blank">
             <IconButton
               aria-label="Email"
               variant="ghost"
